@@ -18,7 +18,7 @@ export const AboutAuthor: React.FC = () => {
                 src={authorImageUrl} 
                 onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" }}
                 alt="Israel de Freitas" 
-                className="rounded-3xl shadow-2xl filter grayscale hover:grayscale-0 transition-all duration-700 w-full object-cover aspect-[4/5]"
+                className="rounded-3xl shadow-2xl w-full object-cover aspect-[4/5]"
               />
               <div className="absolute -bottom-4 -right-4 bg-olive text-white px-4 py-3 rounded-xl font-bold text-xs md:text-sm shadow-xl">
                 Autor & Mentor
