@@ -85,18 +85,18 @@ const App: React.FC = () => {
         </svg>
       </a>
 
-      {/* Rodapé Fixo Mobile - Slimmer e melhor posicionado */}
+      {/* Rodapé Fixo Mobile - Ajuste de proporção para evitar o visual "desproporcional" */}
       <div className={`md:hidden fixed bottom-0 left-0 right-0 z-[60] transition-all duration-500 transform ${showSticky ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
-        <div className="glass-morphism px-5 py-3 flex items-center justify-between shadow-[0_-10px_30px_-15px_rgba(0,0,0,0.15)] border-t border-gold/10">
-          <div className="flex flex-col">
-            <p className="text-[9px] text-gold font-bold uppercase tracking-widest leading-none mb-1">Oferta Digital</p>
-            <p className="text-xl font-black text-olive leading-none">R$ 27,00</p>
+        <div className="glass-morphism px-6 py-4 flex items-center justify-between shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.2)] border-t border-gold/15">
+          <div className="flex flex-col justify-center">
+            <span className="text-[10px] text-gold font-bold uppercase tracking-[0.2em] leading-tight mb-0.5">Oferta</span>
+            <span className="text-2xl font-black text-olive leading-tight">R$ 27,00</span>
           </div>
           <a 
             href={checkoutUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="relative overflow-hidden bg-olive text-white px-6 py-3 rounded-xl font-bold text-xs shadow-lg flex items-center gap-2"
+            className="relative overflow-hidden bg-olive text-white px-7 py-3.5 rounded-xl font-bold text-xs shadow-lg flex items-center gap-2 active:scale-95 transition-transform"
           >
             <span className="relative z-10 uppercase tracking-widest">Garantir Agora</span>
             <div className="absolute inset-0 animate-shimmer"></div>

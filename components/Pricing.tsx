@@ -7,14 +7,14 @@ export const Pricing: React.FC = () => {
   return (
     <section id="pricing" className="py-12 md:py-24 bg-white">
       <div className="container mx-auto px-4 max-w-3xl text-center">
-        <div className="bg-bege border border-gold/20 rounded-[2rem] md:rounded-[3rem] p-6 md:p-16 shadow-xl relative overflow-hidden">
-          {/* Badge de Oferta */}
-          <div className="absolute top-4 right-4 md:top-10 md:right-10 bg-gold text-white text-[9px] md:text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest shadow-lg z-10">
-            Oferta Digital
+        <div className="bg-bege border border-gold/20 rounded-[2rem] md:rounded-[3rem] pt-14 pb-10 px-6 md:p-16 shadow-xl relative overflow-visible">
+          {/* Badge de Oferta - Agora centralizado no topo para evitar sobreposição */}
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gold text-white text-[10px] md:text-xs font-black px-6 py-2 rounded-full uppercase tracking-[0.2em] shadow-lg z-20 whitespace-nowrap">
+            Oferta Especial
           </div>
 
           <div className="relative z-10">
-            <h2 className="text-2xl md:text-4xl font-bold text-olive mb-4 serif italic leading-tight">
+            <h2 className="text-2xl md:text-4xl font-bold text-olive mb-4 md:mb-6 serif italic leading-tight">
               Não deixe sua verdadeira identidade perdida no passado.
             </h2>
             <p className="text-stone-700 mb-8 md:mb-10 text-sm md:text-base leading-relaxed font-light px-2">
@@ -44,7 +44,7 @@ export const Pricing: React.FC = () => {
               <span className="block text-[10px] md:text-xs font-normal opacity-70 mt-1 group-hover:opacity-100">Acesso imediato no seu e-mail</span>
             </a>
 
-            {/* Selos de Confiança - Refatorados com ícones SVG para evitar erros */}
+            {/* Selos de Confiança */}
             <div className="flex flex-col gap-4">
               <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[10px] md:text-xs text-stone-500 font-bold uppercase tracking-wider">
                 <span className="flex items-center gap-1.5 text-emerald-700">
@@ -57,7 +57,7 @@ export const Pricing: React.FC = () => {
                 </span>
               </div>
 
-              {/* Ícones de pagamento com links mais estáveis */}
+              {/* Ícones de pagamento */}
               <div className="flex justify-center items-center gap-4 opacity-60 grayscale hover:grayscale-0 transition-all py-2">
                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" className="h-3 md:h-4 w-auto" />
                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" className="h-5 md:h-6 w-auto" />
