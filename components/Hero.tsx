@@ -2,7 +2,8 @@
 import React from 'react';
 
 export const Hero: React.FC = () => {
-  const bookCoverUrl = "https://lh3.googleusercontent.com/d/1u8zPOMRV1QQ0YCdsLOReTacEwv5r08OM";
+  // Nova imagem da capa fornecida pelo usuário
+  const bookCoverUrl = "https://lh3.googleusercontent.com/d/1arSoEkaR7EKCmmoYdGZGADq7mcMWTzcb";
   const checkoutUrl = "https://pay.hotmart.com/R103515220G";
 
   return (
@@ -21,7 +22,7 @@ export const Hero: React.FC = () => {
                 src={bookCoverUrl} 
                 alt="Capa do Livro Encontro Pessoal com Cristo" 
                 className="relative rounded-lg shadow-[0_15px_40px_-10px_rgba(0,0,0,0.3)] w-full max-w-[180px] xs:max-w-[200px] md:max-w-[380px] transform md:rotate-2 hover:rotate-0 transition-all duration-700 ease-out border-[4px] md:border-[10px] border-white"
-                onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=800" }}
+                onError={(e) => { e.currentTarget.src = "https://lh3.googleusercontent.com/d/1u8zPOMRV1QQ0YCdsLOReTacEwv5r08OM"}}
               />
             </div>
           </div>
