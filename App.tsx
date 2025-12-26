@@ -1,17 +1,18 @@
 
 import React, { useState, useEffect } from 'react';
-import { Hero } from './components/Hero';
-import { PainSection } from './components/PainSection';
-import { SolutionSection } from './components/SolutionSection';
-import { AudienceSection } from './components/AudienceSection';
-import { Pillars } from './components/Pillars';
-import { AboutAuthor } from './components/AboutAuthor';
-import { Pricing } from './components/Pricing';
-import { FAQ } from './components/FAQ';
-import { Footer } from './components/Footer';
+import { Hero } from './components/Hero.tsx';
+import { PainSection } from './components/PainSection.tsx';
+import { SolutionSection } from './components/SolutionSection.tsx';
+import { AudienceSection } from './components/AudienceSection.tsx';
+import { Pillars } from './components/Pillars.tsx';
+import { AboutAuthor } from './components/AboutAuthor.tsx';
+import { Pricing } from './components/Pricing.tsx';
+import { FAQ } from './components/FAQ.tsx';
+import { Footer } from './components/Footer.tsx';
 
 const App: React.FC = () => {
   const [showSticky, setShowSticky] = useState(false);
+  
   const checkoutUrl = "https://pay.hotmart.com/R103515220G";
   const whatsappUrl = "https://wa.me/5563981392009?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20livro%20Encontro%20Pessoal%20com%20Cristo.";
 
@@ -19,6 +20,7 @@ const App: React.FC = () => {
     const handleScroll = () => {
       setShowSticky(window.scrollY > 600);
     };
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -27,7 +29,6 @@ const App: React.FC = () => {
     <div className="min-h-screen flex flex-col bg-offWhite selection:bg-gold/30">
       <Hero />
       
-      {/* O Gancho: Conexão e Dor */}
       <div className="reveal">
         <PainSection />
       </div>
@@ -69,7 +70,6 @@ const App: React.FC = () => {
       
       <Footer />
       
-      {/* WhatsApp Floating Button */}
       <a 
         href={whatsappUrl} 
         target="_blank" 
@@ -82,7 +82,6 @@ const App: React.FC = () => {
         </svg>
       </a>
 
-      {/* Sticky Mobile CTA - Refined UX */}
       <div className={`md:hidden fixed bottom-0 left-0 right-0 z-[60] transition-all duration-500 transform ${showSticky ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
         <div className="glass-morphism px-6 py-4 flex items-center justify-between shadow-[0_-10px_30px_-15px_rgba(0,0,0,0.1)]">
           <div>
