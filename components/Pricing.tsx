@@ -8,7 +8,7 @@ export const Pricing: React.FC = () => {
     <section id="pricing" className="py-12 md:py-24 bg-white">
       <div className="container mx-auto px-4 max-w-3xl text-center">
         <div className="bg-bege border border-gold/20 rounded-[2rem] md:rounded-[3rem] pt-14 pb-10 px-6 md:p-16 shadow-xl relative overflow-visible">
-          {/* Badge de Oferta - Agora centralizado no topo para evitar sobreposição */}
+          {/* Badge de Oferta Especial */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gold text-white text-[10px] md:text-xs font-black px-6 py-2 rounded-full uppercase tracking-[0.2em] shadow-lg z-20 whitespace-nowrap">
             Oferta Especial
           </div>
@@ -34,15 +34,20 @@ export const Pricing: React.FC = () => {
               </div>
             </div>
             
-            <a 
-              href={checkoutUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full bg-olive hover:bg-stone-900 text-white py-5 md:py-6 rounded-xl md:rounded-2xl font-bold text-lg md:text-2xl transition-all shadow-[0_15px_30px_-10px_rgba(74,93,35,0.4)] hover:scale-[1.02] active:scale-95 mb-6 group"
-            >
-              QUERO MEU EXEMPLAR AGORA
-              <span className="block text-[10px] md:text-xs font-normal opacity-70 mt-1 group-hover:opacity-100">Acesso imediato no seu e-mail</span>
-            </a>
+            <div className="mb-8">
+              <a 
+                href={checkoutUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-olive hover:bg-stone-900 text-white py-5 rounded-xl md:rounded-2xl font-bold text-lg md:text-xl transition-all shadow-[0_15px_30px_-10px_rgba(74,93,35,0.4)] hover:scale-[1.02] active:scale-95 group"
+              >
+                QUERO MEU EXEMPLAR AGORA
+              </a>
+              <p className="text-[10px] md:text-xs font-medium text-stone-500 mt-3 uppercase tracking-widest flex items-center justify-center gap-2">
+                <svg className="w-3 h-3 text-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                Acesso imediato no seu e-mail
+              </p>
+            </div>
 
             {/* Selos de Confiança */}
             <div className="flex flex-col gap-4">
