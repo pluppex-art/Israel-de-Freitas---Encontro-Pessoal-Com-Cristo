@@ -10,7 +10,7 @@ export const Pricing: React.FC = () => {
         <div className="bg-bege border border-gold/20 rounded-[2rem] md:rounded-[3rem] pt-14 pb-10 px-5 md:p-16 shadow-xl relative overflow-visible">
           {/* Badge de Oferta Simplificado */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gold text-white text-[10px] md:text-xs font-black px-6 py-2 rounded-full uppercase tracking-[0.2em] shadow-lg z-20 whitespace-nowrap">
-            Oferta
+            Oferta Especial
           </div>
 
           <div className="relative z-10">
