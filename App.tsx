@@ -15,6 +15,7 @@ const App: React.FC = () => {
   
   const checkoutUrl = "https://pay.hotmart.com/R103515220G";
   const whatsappUrl = "https://wa.me/5563981392009?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20livro%20Encontro%20Pessoal%20com%20Cristo.";
+  const whatsappIconUrl = "https://lh3.googleusercontent.com/d/1vAxsLh_lZncLcpMBGprCt-6yIb06vOEX";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -71,17 +72,19 @@ const App: React.FC = () => {
       
       <Footer />
       
-      {/* Botão WhatsApp */}
+      {/* Botão WhatsApp - Atualizado com o novo Ícone */}
       <a 
         href={whatsappUrl} 
         target="_blank" 
         rel="noopener noreferrer" 
-        className="whatsapp-float shadow-2xl z-[70]"
+        className="whatsapp-float z-[70]"
         title="Dúvidas no WhatsApp?"
       >
-        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.891-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332-11.891-11.891 11.891-2.093 0-4.134-.544-5.928-1.583L0 24zm6.702-3.848c1.547.918 3.129 1.403 4.751 1.403 5.341 0 9.691-4.351 9.691-9.691 0-2.585-1.013-5.015-2.852-6.855-1.838-1.837-4.27-2.85-6.839-2.85-5.342 0-9.691 4.351-9.691 9.691 0 1.638.463 3.243 1.34 4.674l-1.02 3.723 3.82-1.005zm10.953-7.53c-.158-.079-1.121-.553-1.295-.615-.174-.063-.301-.094-.428.094-.127.188-.491.615-.602.738-.111.123-.222.138-.38.058-.158-.079-.667-.246-1.27-.783-.47-.419-.788-.937-.88-1.096-.092-.159-.01-.244.07-.323.071-.071.158-.184.238-.276.079-.092.106-.159.159-.265.053-.106.026-.198-.013-.276-.04-.079-.428-1.031-.587-1.413-.154-.372-.31-.322-.428-.328-.11-.006-.238-.007-.365-.007-.127 0-.333.048-.507.238-.174.188-.667.651-.667 1.59s.683 1.847.778 1.973c.095.127 1.343 2.051 3.255 2.876.455.196.81.314 1.087.402.458.145.875.125 1.204.076.366-.055 1.121-.458 1.279-.901.159-.442.159-.821.111-.901-.048-.079-.174-.123-.333-.203z"/>
-        </svg>
+        <img 
+          src={whatsappIconUrl} 
+          alt="WhatsApp" 
+          className="w-full h-full object-contain"
+        />
       </a>
 
       {/* Rodapé Fixo Mobile - Proporções Ajustadas */}
