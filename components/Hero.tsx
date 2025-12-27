@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
             <span className="text-gold font-bold text-[9px] md:text-xs uppercase tracking-[0.2em] mb-2 md:mb-6 block">O Despertar da Identidade</span>
             
             <h1 className="text-2xl xs:text-3xl md:text-5xl lg:text-6xl text-olive font-bold leading-tight mb-3 md:mb-8 serif">
-              Você conhece as histórias sobre Deus, mas será que você <span className="italic text-gold underline decoration-gold/20">realmente O conhece?</span>
+              Você conhece as histórias sobre Cristo, mas será que você <span className="italic text-gold underline decoration-gold/20">realmente O conhece?</span>
             </h1>
             
             <p className="hidden xs:block text-sm md:text-xl text-stone-600 mb-5 md:mb-10 font-light leading-snug md:leading-relaxed max-w-2xl mx-auto md:mx-0">
