@@ -36,7 +36,7 @@ export const AboutAuthor: React.FC = () => {
                 Nasceu dia 27 de fevereiro de 1979, num pequeno povoado, hoje cidade de São Miguel do Tocantins. Pregador do Evangelho, há mais de 25 anos em vários estados do Brasil, palestrante, professor da rede pública desde 2002, formado em Ciências Biológicas, com ampla experiência em gestão de pessoas e liderança. 
               </p>
               <p>
-                Liderou famílias da região Norte do Brasil na Renovação Carismática Católica por mais de quatro anos. Sua maior alegria é fazer gente descobrir sua <span className="text-olive font-semibold italic">verdadeira identidade e propósito</span>, para que possa viver o melhor de Cristo nesta Terra.
+                Atua como líder e mentor de jovens e famílias por todo o Brasil, ajudando milhares de pessoas a descobrirem sua verdadeira identidade e propósito. Sua maior alegria é orientar e acompanhar vidas <span className="text-olive font-semibold italic">sendo transformadas pelo amor de Deus</span>, para que cada um possa viver o melhor de Cristo nesta Terra.
               </p>
             </div>
 
