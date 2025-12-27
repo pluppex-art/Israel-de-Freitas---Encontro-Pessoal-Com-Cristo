@@ -12,7 +12,7 @@ export const PainSection: React.FC = () => {
         
         <div className="space-y-8 text-base md:text-lg text-stone-600 leading-relaxed font-light">
           <p>
-            Muitos de nós passamos anos dentro de igrejas, cumprindo ritos e repetindo orações, mas no fundo, ainda sentimos um <strong className="text-olive font-semibold">vazio inexplicável</strong>. Uma sensação de que somos apenas "servos" distantes, e não filhos amados.
+            Muitos de nós passamos anos dentro das igrejas, envolvidos em atividades religiosas e fazendo orações automáticas, mas, no fundo, ainda carregamos um <strong className="text-olive font-semibold">vazio inexplicável</strong>. Uma sensação silenciosa de que somos apenas servos distantes, e não filhos amados.
           </p>
           
           <div className="bg-bege/50 p-8 md:p-10 rounded-3xl border-l-4 border-gold italic shadow-sm relative overflow-hidden">

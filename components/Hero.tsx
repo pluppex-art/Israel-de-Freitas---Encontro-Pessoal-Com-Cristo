@@ -36,7 +36,7 @@ export const Hero: React.FC = () => {
             </h1>
             
             <p className="hidden xs:block text-sm md:text-xl text-stone-600 mb-5 md:mb-10 font-light leading-snug md:leading-relaxed max-w-2xl mx-auto md:mx-0">
-              Descubra como romper as barreiras da superficialidade da fé e viver uma experiência com Deus que transformará a sua identidade.
+              Descubra como romper as barreiras da superficialidade da fé e viver uma experiência com Cristo que transformará a sua identidade.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
