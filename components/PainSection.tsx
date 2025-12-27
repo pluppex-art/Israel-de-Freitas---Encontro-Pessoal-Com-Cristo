@@ -25,7 +25,7 @@ export const PainSection: React.FC = () => {
           </div>
           
           <p>
-            O problema central é que a religiosidade muitas vezes se torna um muro, nos impedindo de viver a única coisa que realmente importa: a <strong className="text-olive font-semibold">intimidade real</strong> com o Pai.
+            O problema central é que a soberba espiritual muitas vezes se torna um muro, nos impedindo de viver a única coisa que realmente importa: a <strong className="text-olive font-semibold">intimidade real</strong> com o Pai.
           </p>
           
           <div className="pt-6 text-center md:text-left">
