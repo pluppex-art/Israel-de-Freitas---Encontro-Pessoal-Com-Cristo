@@ -8,7 +8,6 @@ export const Pricing: React.FC = () => {
     <section id="pricing" className="py-12 md:py-24 bg-white">
       <div className="container mx-auto px-4 max-w-3xl text-center">
         <div className="bg-bege border border-gold/20 rounded-[2rem] md:rounded-[3rem] pt-14 pb-10 px-5 md:p-16 shadow-xl relative overflow-visible">
-          {/* Badge de Oferta Simplificado */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gold text-white text-[10px] md:text-xs font-black px-6 py-2 rounded-full uppercase tracking-[0.2em] shadow-lg z-20 whitespace-nowrap">
             Oferta Especial
           </div>
@@ -18,7 +17,7 @@ export const Pricing: React.FC = () => {
               Não deixe sua verdadeira identidade perdida no passado.
             </h2>
             <p className="text-stone-700 mb-8 md:mb-10 text-sm md:text-base leading-relaxed font-light px-2">
-              Recupere a visão de quem você é em Deus e cure as feridas que tentaram apagar o seu brilho. Sua nova história começa com um único clique.
+              Recupere a visão de quem você é em Cristo e cure as feridas que tentaram apagar o seu brilho. Sua nova história começa com um único clique.
             </p>
             
             <div className="mb-8 md:mb-10">
@@ -49,7 +48,6 @@ export const Pricing: React.FC = () => {
               </p>
             </div>
 
-            {/* Selos de Confiança */}
             <div className="flex flex-col gap-5 mt-10">
               <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[10px] md:text-xs text-stone-500 font-bold uppercase tracking-wider">
                 <span className="flex items-center gap-1.5 text-emerald-700">
@@ -62,7 +60,6 @@ export const Pricing: React.FC = () => {
                 </span>
               </div>
 
-              {/* Ícones de pagamento - Removido ícone quebrado/desnecessário e ajustado tamanhos */}
               <div className="flex justify-center items-center gap-5 opacity-60 grayscale hover:grayscale-0 transition-all">
                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" className="h-2.5 md:h-3.5 w-auto" />
                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" className="h-4 md:h-5 w-auto" />

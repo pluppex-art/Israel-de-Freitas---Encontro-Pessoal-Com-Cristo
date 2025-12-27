@@ -7,7 +7,7 @@ export const PainSection: React.FC = () => {
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="text-center mb-12 md:mb-16">
           <span className="text-gold font-bold uppercase tracking-[0.2em] text-[10px] md:text-xs mb-3 block">A Busca pela Verdade</span>
-          <h2 className="text-2xl md:text-4xl text-olive font-bold serif italic leading-tight">Ninguém compreende a vida sem a experiência do Amor de Deus</h2>
+          <h2 className="text-2xl md:text-4xl text-olive font-bold serif italic leading-tight">Ninguém compreende a vida sem a experiência do Amor de Cristo</h2>
         </div>
         
         <div className="space-y-8 text-base md:text-lg text-stone-600 leading-relaxed font-light">

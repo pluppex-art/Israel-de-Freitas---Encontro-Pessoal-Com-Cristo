@@ -89,7 +89,7 @@ const App: React.FC = () => {
 
       {/* Rodapé Fixo Mobile - Proporções Ajustadas */}
       <div className={`md:hidden fixed bottom-0 left-0 right-0 z-[60] transition-all duration-500 transform ${showSticky ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
-        <div className="glass-morphism px-6 py-4 flex items-center justify-between shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.2)] border-t border-gold/15">
+        <div className="glass-morphism px-6 py-4 flex items-center justify-between shadow-[0_-10px_40_px_-15px_rgba(0,0,0,0.2)] border-t border-gold/15">
           <div className="flex flex-col justify-center">
             <span className="text-[10px] text-gold font-bold uppercase tracking-[0.2em] leading-none mb-1.5">Oferta</span>
             <span className="text-2xl font-black text-olive leading-none">R$ 27,00</span>

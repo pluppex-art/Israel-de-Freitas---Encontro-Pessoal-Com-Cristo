@@ -2,14 +2,12 @@
 import React from 'react';
 
 export const AboutAuthor: React.FC = () => {
-  // Link direto para a imagem do autor no Google Drive
   const authorImageUrl = "https://lh3.googleusercontent.com/d/1vHKU12vfm1gLNX_csydIxJxeX-krJyzC";
 
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="bg-bege rounded-[2.5rem] md:rounded-[3rem] p-8 md:p-16 flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-16 border border-gold/10 shadow-lg relative overflow-hidden">
-          {/* Decorative element */}
           <div className="absolute top-0 right-0 w-32 h-32 bg-gold/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>
           
           <div className="w-full md:w-1/3 flex-shrink-0">
@@ -38,7 +36,7 @@ export const AboutAuthor: React.FC = () => {
                 Nasceu dia 27 de fevereiro de 1979, num pequeno povoado, hoje cidade de São Miguel do Tocantins. Pregador do Evangelho, há mais de 25 anos em vários estados do Brasil, palestrante, professor da rede pública desde 2002, formado em Ciências Biológicas, com ampla experiência em gestão de pessoas e liderança. 
               </p>
               <p>
-                Liderou famílias da região Norte do Brasil na Renovação Carismática Católica por mais de quatro anos. Sua maior alegria é fazer gente descobrir sua <span className="text-olive font-semibold italic">verdadeira identidade e propósito</span>, para que possa viver o melhor de Deus nesta Terra.
+                Liderou famílias da região Norte do Brasil na Renovação Carismática Católica por mais de quatro anos. Sua maior alegria é fazer gente descobrir sua <span className="text-olive font-semibold italic">verdadeira identidade e propósito</span>, para que possa viver o melhor de Cristo nesta Terra.
               </p>
             </div>
 
@@ -49,7 +47,7 @@ export const AboutAuthor: React.FC = () => {
                 </div>
                 <div className="text-left">
                   <p className="text-xs font-bold text-gold uppercase tracking-widest">Missão</p>
-                  <p className="text-sm text-stone-500 italic">Despertar a identidade e proposito.</p>
+                  <p className="text-sm text-stone-500 italic">Despertar a identidade e propósito.</p>
                 </div>
               </div>
             </div>

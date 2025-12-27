@@ -20,7 +20,7 @@ const pillarData = [
   {
     icon: "🎯",
     title: "Ativação de Propósito",
-    desc: "Entenda por que você foi criado e como usar o seu livre-arbítrio para cumprir o sonho de Deus para sua vida."
+    desc: "Entenda por que você foi criado e como usar o seu livre-arbítrio para cumprir o sonho de Cristo para sua vida."
   }
 ];
 

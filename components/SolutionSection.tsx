@@ -2,7 +2,6 @@
 import React from 'react';
 
 export const SolutionSection: React.FC = () => {
-  // Link direto para a imagem encontrocomcristo.png no Google Drive
   const solutionImageUrl = "https://lh3.googleusercontent.com/d/1YCrXq-JIjC_e6F5E-NLQb0ec5pFNpzk8";
 
   return (
@@ -31,14 +30,13 @@ export const SolutionSection: React.FC = () => {
                 Nestas páginas, Israel de Freitas conduz você através de uma jornada de autodescoberta e ativação espiritual. Você será guiado a dar o seu <strong>"SIM"</strong> mais importante. 
               </p>
               <p className="text-gold font-semibold text-xl italic">
-                Aquele que ativa o seu livre-arbítrio para tomar posse do que é seu por direito: o melhor de Deus nesta Terra.
+                Aquele que ativa o seu livre-arbítrio para tomar posse do que é seu por direito: o melhor de Cristo nesta Terra.
               </p>
             </div>
           </div>
         </div>
       </div>
       
-      {/* Texture Background */}
       <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')]"></div>
     </section>
   );

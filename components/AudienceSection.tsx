@@ -23,7 +23,7 @@ export const AudienceSection: React.FC = () => {
             <div className="text-gold font-serif text-4xl mb-6 opacity-50">02</div>
             <h3 className="text-xl font-bold text-olive mb-4">Os que estão estagnados</h3>
             <p className="text-stone-600 leading-relaxed font-light">
-              Aqueles que já viveram algo com Deus no passado, mas pararam de avançar. Pessoas que pararam de sonhar e vivem um estado de mornidão espiritual.
+              Aqueles que já viveram algo com Cristo no passado, mas pararam de avançar. Pessoas que pararam de sonhar e vivem um estado de mornidão espiritual.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export const AudienceSection: React.FC = () => {
 
         <div className="mt-16 text-center max-w-3xl mx-auto">
           <p className="text-xl text-olive font-serif italic mb-4">
-            "Não tem sentido uma vida sem o amor de Deus, sem assumirmos a nossa verdadeira identidade de filhos."
+            "Não tem sentido uma vida sem o amor de Cristo, sem assumirmos a nossa verdadeira identidade de filhos."
           </p>
           <p className="text-stone-500 text-sm uppercase tracking-widest font-bold">Descubra seu perfil e parta para a ação.</p>
         </div>

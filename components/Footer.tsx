@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="mb-12">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 italic serif max-w-2xl mx-auto">
-            Chegou a hora de não aceitar menos do que o melhor de Deus.
+            Chegou a hora de não aceitar menos do que o melhor de Cristo.
           </h2>
           <p className="text-stone-400 max-w-3xl mx-auto mb-10 font-light text-lg">
             Não é sobre sorte, é sobre decisão. Clique no botão abaixo, adquira o seu exemplar e comece hoje a escrever o capítulo mais importante da sua história.
