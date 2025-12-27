@@ -41,7 +41,7 @@ const App: React.FC = () => {
             Uma jornada de volta ao coração do Pai
           </h2>
           <p className="text-base md:text-lg text-stone-700 leading-relaxed font-light">
-            Este livro é um convite para você abandonar o peso da religiosidade e experimentar um relacionamento real, leve e transformador com Cristo. Através de uma linguagem simples e profunda, Israel de Freitas compartilha as chaves para a restauração da sua identidade e o despertar do seu propósito.
+            Este livro é um convite para você abandonar o peso do vazio espiritual e experimentar um relacionamento real, leve e transformador com Cristo. Através de uma linguagem simples e profunda, Israel de Freitas compartilha as chaves para a restauração da sua identidade e o despertar do seu propósito.
           </p>
         </div>
       </div>
