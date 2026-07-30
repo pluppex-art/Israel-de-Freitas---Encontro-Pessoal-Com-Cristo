@@ -19,7 +19,7 @@ import { FinalCTA } from './components/FinalCTA.tsx';
 import { Footer } from './components/Footer.tsx';
 import { StickyMobileCTA } from './components/StickyMobileCTA.tsx';
 
-const App: React.FC = () => {
+const CifApp: React.FC = () => {
   const player = useVSLPlayer(VSL_CONFIG);
   const [showSticky, setShowSticky] = useState(false);
 
@@ -119,4 +119,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default CifApp;
